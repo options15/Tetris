@@ -4,9 +4,11 @@ namespace Tetris
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Game tetris = new Game();
+            tetris.Start();
+            Console.ReadKey();
         }
     }
 }
